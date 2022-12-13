@@ -16,7 +16,7 @@
 
 
 body{
-    background: #070506 url('/img/main_bg.png') top right  no-repeat;
+    background: #070506 url('../img/main_bg.png') top right  no-repeat;
     background-size: contain;
     background-attachment: fixed;
     color: white;
@@ -106,7 +106,7 @@ body{
     width: 65px;
     height: 65px;
     border-radius: 50%;
-    background: #fff url('/img/play.svg') center no-repeat;
+    background: #fff url('../img/play.svg') center no-repeat;
     position: absolute;
     right: 0;
     top: 0;
@@ -186,18 +186,18 @@ body{
     width: 12px;
     height: 12px;
     display: inline-block;
-    background: url('/img/star.svg') no-repeat center;
+    background: url('../img/star.svg') no-repeat center;
 }
 
 .star-o{
-    background: url('/img/star-o.svg') no-repeat center;
+    background: url('../img/star-o.svg') no-repeat center;
 }
 
 .slider__nav--left{
     width: 32px;
     height: 32px;
     border: none;
-    background: transparent url('/img/left-arrow.svg') no-repeat center;
+    background: transparent url('../img/left-arrow.svg') no-repeat center;
     margin-right: 15px;
     cursor: pointer;
 }
@@ -206,7 +206,7 @@ body{
     width: 32px;
     height: 32px;
     border: none;
-    background: transparent url('/img/right-arrow.svg') no-repeat center;
+    background: transparent url('../img/right-arrow.svg') no-repeat center;
     cursor: pointer;
 }
 
